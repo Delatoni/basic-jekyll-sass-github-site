@@ -12,7 +12,7 @@ title: Donatoni
 tagline: My personal website.
 email: dell@donatoni.io
 description:
-baseurl: "http://donatoni.io"
+#baseurl: "http://donatoni.io"
 
 # Assets
 #
