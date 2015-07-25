@@ -26,56 +26,62 @@ img {
 /* ====== Show / Hide Devices  ====== */
 
 
-/* Mobile */
+/* Usage: Show element on mobile */
 
 .show-mobile {
     display: none;
 
-    @include mq($until: mobile) {
+    @include breakpoint($mobile) {
         display: block;
     }
 }
+
+/* Usage: Hide element on mobile */
 
 .hide-mobile {
     display: block;
 
-    @include mq($until: mobile) {
+    @include breakpoint($mobile) {
         display: none;
     }
 }
 
-/* Tablet */
+/* Usage: Show element on tablet */
 
 .show-tablet {
     display: none;
 
-    @include mq($until: tablet) {
+    @include breakpoint($tablet) {
         display: block;
     }
 }
+
+/* Usage: Hide element on tablet */
 
 .hide-tablet {
     display: block;
 
-    @include mq($until: tablet) {
+    @include breakpoint($tablet) {
         display: none;
     }
 }
 
-/* Desktop */
+/* Usage: Show element on desktop */
 
 .show-desktop {
     display: none;
 
-    @include mq($until: desktop) {
+    @include breakpoint($desktop) {
         display: block;
     }
 }
 
+/* Usage: Hide element on desktop */
+
 .hide-desktop {
     display: block;
 
-    @include mq($until: desktop) {
+    @include breakpoint($desktop) {
         display: none;
     }
 }

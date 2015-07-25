@@ -54,10 +54,4 @@ header {
         @include rem(font-size, 32px);
         @include rem(line-height, 63px);
     }
-
-    .sidr {
-        font-family: $font-light;
-        background-color: $bg-white;
-        text-transform: uppercase;
-    }
 }
